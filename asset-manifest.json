@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/erikelorrainewedding/static/css/main.619ddba7.css",
-    "main.js": "/erikelorrainewedding/static/js/main.d68f5f58.js",
+    "main.js": "/erikelorrainewedding/static/js/main.66365a7e.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/erikelorrainewedding/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/wedding-dress.jpg": "/erikelorrainewedding/static/media/wedding-dress.454ccf56224ba4747fda.jpg",
     "static/media/fontawesome-webfont.eot": "/erikelorrainewedding/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -11,10 +11,10 @@
     "static/media/rings.jpeg": "/erikelorrainewedding/static/media/rings.d38d4183f7516e66550c.jpeg",
     "index.html": "/erikelorrainewedding/index.html",
     "main.619ddba7.css.map": "/erikelorrainewedding/static/css/main.619ddba7.css.map",
-    "main.d68f5f58.js.map": "/erikelorrainewedding/static/js/main.d68f5f58.js.map"
+    "main.66365a7e.js.map": "/erikelorrainewedding/static/js/main.66365a7e.js.map"
   },
   "entrypoints": [
     "static/css/main.619ddba7.css",
-    "static/js/main.d68f5f58.js"
+    "static/js/main.66365a7e.js"
   ]
 }
