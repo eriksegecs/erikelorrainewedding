@@ -1,7 +1,9 @@
 
 const Stripe = require('stripe');
 
-export const stripe = new Stripe('API_KEY_STRIPE', {
+const apiKey = process.env.YOUR_STRIPE_SECRET_KEY
+
+export const stripe = new Stripe('apiKey', {
   apiVersion: "2023-08-16",
   appInfo: {
     name: 'Ignite Shop',
