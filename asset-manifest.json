@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/erikelorrainewedding/static/css/main.619ddba7.css",
-    "main.js": "/erikelorrainewedding/static/js/main.66365a7e.js",
+    "main.css": "/erikelorrainewedding/static/css/main.0fd82d2f.css",
+    "main.js": "/erikelorrainewedding/static/js/main.6c6a7a0c.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/erikelorrainewedding/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/wedding-dress.jpg": "/erikelorrainewedding/static/media/wedding-dress.454ccf56224ba4747fda.jpg",
+    "static/media/wts.jpeg": "/erikelorrainewedding/static/media/wts.692f8eaf61df1a219f9d.jpeg",
     "static/media/fontawesome-webfont.eot": "/erikelorrainewedding/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/erikelorrainewedding/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/erikelorrainewedding/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/erikelorrainewedding/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/rings.jpeg": "/erikelorrainewedding/static/media/rings.d38d4183f7516e66550c.jpeg",
     "index.html": "/erikelorrainewedding/index.html",
-    "main.619ddba7.css.map": "/erikelorrainewedding/static/css/main.619ddba7.css.map",
-    "main.66365a7e.js.map": "/erikelorrainewedding/static/js/main.66365a7e.js.map"
+    "main.0fd82d2f.css.map": "/erikelorrainewedding/static/css/main.0fd82d2f.css.map",
+    "main.6c6a7a0c.js.map": "/erikelorrainewedding/static/js/main.6c6a7a0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.619ddba7.css",
-    "static/js/main.66365a7e.js"
+    "static/css/main.0fd82d2f.css",
+    "static/js/main.6c6a7a0c.js"
   ]
 }
