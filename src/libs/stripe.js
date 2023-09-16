@@ -1,5 +1,5 @@
 
-const Stripe = require('stripe');
+const Stripe = require('stripe')
 
 const apiKey = process.env.YOUR_STRIPE_SECRET_KEY
 

@@ -4,8 +4,8 @@ import { Footer, Navbar } from '../components'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
-export default function Checkout() 
-{
+export default function Checkout() {
+  
   const state = useSelector((state) => state.handleCart)
 
   const EmptyCart = () => {
