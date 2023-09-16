@@ -1,12 +1,14 @@
 
-export default function Home() {
+import HeroImage from '../assets/wts.jpeg'
+
+export default function Hero() {
 
   return (
       <div className="hero border-1 pb-3">
         <div className="card bg-dark text-white border-0 overflow-hidden" style={{ maxHeight: '75vh', margin: '0 100px 0 100px'}}>
           <img
             className="img-fluid w-100"
-            src="./assets/wts.jpeg"
+            src={HeroImage}
           />
           <div className="card-img-overlay d-flex align-items-center">
             <div className="container">

@@ -1,7 +1,10 @@
+
 import React from 'react'
-import { Footer, Navbar } from "../components";
-import { Link } from 'react-router-dom';
-const Register = () => {
+import { Footer, Navbar } from '../components'
+import { Link } from 'react-router-dom'
+
+export default function Register() {
+    
     return (
         <>
             <Navbar />
@@ -54,5 +57,3 @@ const Register = () => {
         </>
     )
 }
-
-export default Register

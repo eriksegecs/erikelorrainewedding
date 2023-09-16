@@ -1,6 +1,9 @@
-import React from "react";
-import { Footer, Navbar } from "../components";
-const ContactPage = () => {
+
+import React from 'react'
+import { Footer, Navbar } from '../components'
+
+export default function ContactPage() {
+  
   return (
     <>
       <Navbar />
@@ -52,7 +55,5 @@ const ContactPage = () => {
       </div>
       <Footer />
     </>
-  );
-};
-
-export default ContactPage;
+  )
+}

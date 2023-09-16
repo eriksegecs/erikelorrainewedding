@@ -1,12 +1,14 @@
-import React from "react";
-import { Footer, Navbar } from "../components";
-import { useSelector, useDispatch } from "react-redux";
-import { addCart, delCart } from "../redux/action";
-import { Link } from "react-router-dom";
 
-const Cart = () => {
-  const state = useSelector((state) => state.handleCart);
-  const dispatch = useDispatch();
+import React from 'react'
+import { Footer, Navbar } from '../components'
+import { useSelector, useDispatch } from 'react-redux'
+import { addCart, delCart } from '../redux/action'
+import { Link } from 'react-router-dom'
+
+export default function Cart() {
+
+  const state = useSelector((state) => state.handleCart)
+  const dispatch = useDispatch()
 
   const EmptyCart = () => {
     return (
@@ -20,27 +22,27 @@ const Cart = () => {
           </div>
         </div>
       </div>
-    );
-  };
+    )
+  }
 
   const addItem = (product) => {
-    dispatch(addCart(product));
-  };
+    dispatch(addCart(product))
+  }
   const removeItem = (product) => {
-    dispatch(delCart(product));
-  };
+    dispatch(delCart(product))
+  }
 
   const ShowCart = () => {
-    let subtotal = 0;
-    let shipping = 30.0;
-    let totalItems = 0;
+    let subtotal = 0
+    let shipping = 30.0
+    let totalItems = 0
     state.map((item) => {
       return (subtotal += item.price * item.qty);
-    });
+    })
 
     state.map((item) => {
       return (totalItems += item.qty);
-    });
+    })
     return (
       <>
         <section className="h-100 gradient-custom">
@@ -158,8 +160,8 @@ const Cart = () => {
           </div>
         </section>
       </>
-    );
-  };
+    )
+  }
 
   return (
     <>
@@ -171,7 +173,5 @@ const Cart = () => {
       </div>
       <Footer />
     </>
-  );
-};
-
-export default Cart;
+  )
+}

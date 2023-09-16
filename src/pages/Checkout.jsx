@@ -1,9 +1,12 @@
-import React from "react";
-import { Footer, Navbar } from "../components";
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-const Checkout = () => {
-  const state = useSelector((state) => state.handleCart);
+
+import React from 'react'
+import { Footer, Navbar } from '../components'
+import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
+
+export default function Checkout() 
+{
+  const state = useSelector((state) => state.handleCart)
 
   const EmptyCart = () => {
     return (
@@ -17,8 +20,8 @@ const Checkout = () => {
           </div>
         </div>
       </div>
-    );
-  };
+    )
+  }
 
   const ShowCheckout = () => {
     let subtotal = 0;
@@ -26,11 +29,11 @@ const Checkout = () => {
     let totalItems = 0;
     state.map((item) => {
       return (subtotal += item.price * item.qty);
-    });
+    })
 
     state.map((item) => {
       return (totalItems += item.qty);
-    });
+    })
     return (
       <>
         <div className="container py-5">
@@ -280,8 +283,9 @@ const Checkout = () => {
           </div>
         </div>
       </>
-    );
-  };
+    )
+  }
+  
   return (
     <>
       <Navbar />
@@ -292,7 +296,5 @@ const Checkout = () => {
       </div>
       <Footer />
     </>
-  );
-};
-
-export default Checkout;
+  )
+}

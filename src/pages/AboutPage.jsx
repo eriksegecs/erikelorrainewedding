@@ -1,6 +1,9 @@
+
 import React from 'react'
-import { Footer, Navbar } from "../components";
-const AboutPage = () => {
+import { Footer, Navbar } from '../components'
+
+export default function AboutPage() {
+
   return (
     <>
       <Navbar />
@@ -63,5 +66,3 @@ const AboutPage = () => {
     </>
   )
 }
-
-export default AboutPage

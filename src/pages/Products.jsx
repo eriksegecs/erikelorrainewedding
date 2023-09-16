@@ -1,14 +1,13 @@
-import React from 'react'
-import { Footer, Navbar, Product } from "../components"
 
-const Products = () => {
+import React from 'react'
+import { Footer, Navbar, ProductsComponent } from "../components"
+
+export default function Products() {
   return (
     <>
       <Navbar />
-      <Product />
+      <ProductsComponent />
       <Footer />
     </>
   )
 }
-
-export default Products

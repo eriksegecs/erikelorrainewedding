@@ -1,8 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Footer, Navbar } from "../components";
 
-const Login = () => {
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { Footer, Navbar } from '../components'
+
+export default function Login() {
+
   return (
     <>
       <Navbar />
@@ -44,7 +46,5 @@ const Login = () => {
       </div>
       <Footer />
     </>
-  );
-};
-
-export default Login;
+  )
+}
